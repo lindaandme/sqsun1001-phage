@@ -22,6 +22,8 @@ python ./main_code/extract_from_biosample.py biosample.all >column.biosample.txt
 sh prodigal.sh
 #Gene annotation
 sh prokka.sh
+#Phylogenetic analysis
+sh Phylogenetic_analysis.sh
 #Taxonomic classification of S. enterica temperate phages
 sh vcontact2.sh
 #Create a cartographic representation of the world.
