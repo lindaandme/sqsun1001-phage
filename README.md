@@ -16,8 +16,19 @@ Secondly, you can clone it to your local computer using Git.<br/>
 ## Usage
 
 ``` 
-python ./main_code/extract_from_biosample.py biosample.all >column.biosample.txt <br/>
+#Extraction of the host information
+python ./main_code/extract_from_biosample.py biosample.all >column.biosample.txt
+#Gene prediction
 sh prodigal.sh
+#Gene annotation
 sh prokka.sh
+#Taxonomic classification of S. enterica temperate phages
+sh vcontact2.sh
+#Create a cartographic representation of the world.
+Rscript worldmap.R
+#Generate a scatter plot depicting correlations
+Rscript correlation.R
+#Generate a histogram of frequency distribution
+Rscript Length-GC.R
 
 
